@@ -1,0 +1,139 @@
+body {
+    padding: 4%;
+    background-color: #0c0f30 !important;
+}
+
+.logo {
+    height:33px ;
+    width:33px ;
+}
+
+.qw {
+    width: 100%;
+}
+
+header {
+    z-index: 1;
+    display: flex;
+}
+
+.general-links a {
+    color: #77789a;
+    font-size: 150%;
+    margin-right: 75px;
+    text-decoration: none;
+}
+
+.general-links a:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.sign-in-link {
+    color: #fff !important;
+    border: 3px solid #fff;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    text-decoration: none !important;
+}
+
+.sign-in-link:hover {
+    border: 3px dashed #fff;
+}
+
+.b {
+    margin: 10px;
+    color: #fff !important;
+}
+
+.general-links a:last-child {
+    margin-left: 5%;
+}
+
+.general-links a:first-child {
+    margin-right: 25%;
+}
+
+.title {
+    font-size: 100px;
+    line-height: 1;
+    color: #fff;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    color: #77789a;
+    line-height: 1.5;
+}
+
+.qwe {
+    position: absolute;
+    top: 240px;
+    left: 850px;
+}
+
+.qwer {
+    position: absolute;
+    top: 180px;
+    left: 905px;
+}
+
+.qwert {
+    position: absolute;
+    top: 200px;
+    left: 920px;
+}
+
+.star1 {
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+}
+
+.star2 {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    top: 740px;
+    left: 1350px;
+}
+
+.star3 {
+    position: absolute;
+    top: 600px;
+    left: 820px;
+}
+
+.Arrow {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+
+.button1 {
+    margin-top: 20%;
+    font-size: 20px;
+    color: #fff !important;
+    border: 3px solid #fff;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0c0f30;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #090b24;
+    border-radius: 500;
+    border: 2px solid #4d5080;
+}
