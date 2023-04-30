@@ -1,5 +1,8 @@
+* {
+    font-family: monospace;
+}
+
 body {
-    padding: 4%;
     background-color: #0c0f30 !important;
 }
 
@@ -13,8 +16,8 @@ body {
 }
 
 header {
-    z-index: 1;
     display: flex;
+    padding: 4%;
 }
 
 .general-links a {
@@ -56,34 +59,40 @@ header {
     margin-right: 25%;
 }
 
-.title {
+.qaz {
+    padding: 4%;
+}
+
+.title1 {
     font-size: 100px;
     line-height: 1;
     color: #fff;
-    margin-top: 150px;
+    margin-top: 85px;
     margin-bottom: 50px;
 }
 
-.subtitle {
+.subtitle1 {
+    font-size: 20px;
     color: #77789a;
     line-height: 1.5;
+    margin-bottom: 5%;
 }
 
-.qwe {
+.hand {
     position: absolute;
-    top: 240px;
+    top: 202px;
     left: 850px;
 }
 
-.qwer {
+.phone {
     position: absolute;
     top: 180px;
     left: 905px;
 }
 
-.qwert {
+.design {
     position: absolute;
-    top: 200px;
+    top: 194px;
     left: 920px;
 }
 
@@ -113,15 +122,137 @@ header {
     left: 450px;
 }
 
-.button1 {
-    margin-top: 20%;
-    font-size: 20px;
+.qa {
+    font-size: 30px;
     color: #fff !important;
     border: 3px solid #fff;
     padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px; 
+    padding-left: 20px;
+    padding-right: 20px; 
     text-decoration: none;
+}
+
+.box {
+    width: 100%;
+    height: 132px;
+    background: #0e1e44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img {
+    margin: 3%;
+}
+
+.title2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 50px;
+    margin-bottom: -0.5% ;
+}
+
+.subtitle2 {
+    color: #77789a;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 344px;
+    height: 427px;
+    border: 2px solid #4d5080;
+    border-radius: 10px;
+    padding: 1%;
+    text-align: center;
+    margin: 3%;
+}
+
+.card h1 {
+    color: #fff;
+    text-align: start;
+}
+
+.cardtitle {
+    color: #fff ;
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.cardsubtitle {
+    color: #fff ;
+    font-size: 15px;
+    text-align: center;
+}
+
+.CP {
+    display: flex;
+}
+
+.smoletitle {
+    font-size: 20px;
+    color: #C23893;
+}
+
+.title3 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.qwe img {
+    width: 24px;
+    height: 24px;
+}
+
+.qwert {
+    display: flex;
+    align-items: center;
+}
+
+.qwert p {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 3% ;
+}
+
+.qwer {
+    color: #77789a;
+    font-size: 18px;
+}
+
+.qs {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.qs img {
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.title4 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.subtitle4 {
+    font-size: 20px;
+    color: #77789a;
+    margin-bottom: 10%;
+}
+
+.qsx {
+    display: flex;
+    justify-content: center;
 }
 
 ::-webkit-scrollbar {
@@ -134,6 +265,6 @@ header {
 
 ::-webkit-scrollbar-thumb {
     background: #090b24;
-    border-radius: 500;
+    border-radius: 5px;
     border: 2px solid #4d5080;
 }
